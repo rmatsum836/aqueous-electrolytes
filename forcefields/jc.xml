@@ -1,0 +1,24 @@
+<ForceField>
+ <AtomTypes>
+  <Type name="jc_001" class="Li+" element="Li" mass="6.94100" def="Li" desc="lithium ion"/>
+  <Type name="jc_002" class="Na+" element="Na" mass="22.98977" def="Na" desc="sodium ion"/>
+  <Type name="jc_003" class="K+" element="K" mass="39.0983" def="K" desc="potassium ion"/>
+  <Type name="jc_004" class="Rb+" element="Rb" mass="85.4678" def="Rb" desc="Rubidium ion"/>
+  <Type name="jc_005" class="Cs+" element="Cs" mass="132.9055" def="Cs" desc="cesium ion"/>
+  <Type name="jc_006" class="F-" element="F" mass="18.9984" def="F" desc="Fluorine ion"/>
+  <Type name="jc_007" class="Cl-" element="Cl" mass="35.4530" def="Cl" desc="chlorine ion"/>
+  <Type name="jc_008" class="Br-" element="Br" mass="79.904" def="Br" desc="Bromine ion"/>
+  <Type name="jc_009" class="I-" element="I" mass="126.9045" def="I" desc="Iodine ion"/>
+ </AtomTypes>
+ <NonbondedForce coulomb14scale="0.5" lj14scale="0.5">
+  <Atom type="jc_001" charge="1.000" sigma="0.1025" epsilon="0.117108486"/>
+  <Atom type="jc_002" charge="1.000" sigma="0.1369" epsilon="0.365846031"/>
+  <Atom type="jc_003" charge="1.000" sigma="0.1705" epsilon="0.810369254"/>
+  <Atom type="jc_004" charge="1.000" sigma="0.1813" epsilon="1.37160683"/>
+  <Atom type="jc_005" charge="1.000" sigma="0.1976" epsilon="1.70096085"/>
+  <Atom type="jc_006" charge="-1.000" sigma="0.2303" epsilon="0.014074976"/>
+  <Atom type="jc_007" charge="-1.000" sigma="0.2513" epsilon="0.148912744"/>
+  <Atom type="jc_008" charge="-1.000" sigma="0.2608" epsilon="0.24541494"/>
+  <Atom type="jc_009" charge="-1.000" sigma="0.286" epsilon="0.2246038414"/>
+ </NonbondedForce>
+</ForceField>
