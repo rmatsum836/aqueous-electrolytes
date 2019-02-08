@@ -14,14 +14,14 @@
   <Type name="jc_009" class="I-" element="I" mass="126.9045" def="I" desc="Iodine ion"/>
  </AtomTypes>
  <NonbondedForce coulomb14scale="0.5" lj14scale="0.5">
-  <Atom type="jc_001" charge="1.000" sigma="0.1408" epsilon="1.408897"/>
-  <Atom type="jc_002" charge="1.000" sigma="0.2159" epsilon="1.475453"/>
-  <Atom type="jc_003" charge="1.000" sigma="0.2838" epsilon="1.797887"/>
-  <Atom type="jc_004" charge="1.000" sigma="0.3095" epsilon="1.862313"/>
-  <Atom type="jc_005" charge="1.000" sigma="0.3601" epsilon="0.37596"/>
+  <Atom type="jc_001" charge="1.000" sigma="0.1408" epsilon="1.4088973"/>
+  <Atom type="jc_002" charge="1.000" sigma="0.2159" epsilon="1.4754533"/>
+  <Atom type="jc_003" charge="1.000" sigma="0.2838" epsilon="1.7978874"/>
+  <Atom type="jc_004" charge="1.000" sigma="0.3095" epsilon="1.8623135"/>
+  <Atom type="jc_005" charge="1.000" sigma="0.3601" epsilon="0.3759596"/>
   <Atom type="jc_006" charge="-1.000" sigma="0.4022" epsilon="0.0309637"/>
-  <Atom type="jc_007" charge="-1.000" sigma="0.4831" epsilon="0.053492"/>
-  <Atom type="jc_008" charge="-1.000" sigma="0.4902" epsilon="0.11279"/>
-  <Atom type="jc_009" charge="-1.000" sigma="0.5201" epsilon="0.17901"/>
+  <Atom type="jc_007" charge="-1.000" sigma="0.4831" epsilon="0.0534924"/>
+  <Atom type="jc_008" charge="-1.000" sigma="0.4902" epsilon="0.1127948"/>
+  <Atom type="jc_009" charge="-1.000" sigma="0.5201" epsilon="0.1790104"/>
  </NonbondedForce>
 </ForceField>
